@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ACAML xmlns="urn:schemas-agilent-com:acaml14" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Checksum Algorithm="MD5">
+		<Value>QZCCt50th5c5ELBa/3fwJA==</Value>
+	</Checksum>
+	<Doc ContentVersioned="false">
+		<DocID>3545cb2c-944b-4751-9a31-ccfa75b48aea</DocID>
+		<DocInfo>
+			<Description>Method ACAML</Description>
+			<CreatedByUser>BOISESTATE\sn203</CreatedByUser>
+			<CreatedByApplication>
+				<AgilentApp>
+					<Name>ChemStation</Name>
+					<Version>2.144.0.0</Version>
+				</AgilentApp>
+			</CreatedByApplication>
+			<CreationDate>2016-11-28T19:50:32.994-07:00</CreationDate>
+			<ClientName>BIO-S203-A</ClientName>
+		</DocInfo>
+		<Content>
+			<MethodConfiguration xsi:type="MethodConfigurationType" id="51a63fd4-434c-4742-9b20-08209a5bcb06" ver="0">
+				<MethodDescription>
+					<Name>Method Configuration</Name>
+					<ID>Method_Configuration</ID>
+					<Section>
+						<Name>Acquisition Method</Name>
+						<ID>Acquisition_Method</ID>
+					</Section>
+				</MethodDescription>
+			</MethodConfiguration>
+		</Content>
+	</Doc>
+</ACAML>
