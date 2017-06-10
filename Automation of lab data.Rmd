@@ -22,9 +22,6 @@ At first I thought I am missing something, but I soon to find out that I can eas
 
 
 ```{r 1}
-
-### See do file for details
-
 #Define the function:
 chels_fun <- function(start, end, path){
   #install relevant packages if needed:
@@ -72,3 +69,4 @@ dat #print the results (this will print only the first 10 lines, since it is a d
 write.csv(dat,"my_results.csv") #save the results 
 ```
 
+* Find the relevant data at https://github.com/RamBarankin/Automating-data-mining-of-lab-data.git

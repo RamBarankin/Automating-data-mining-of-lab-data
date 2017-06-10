@@ -132,9 +132,7 @@ $(document).ready(function () {
 <div id="challenge-accepted" class="section level3">
 <h3>Challenge accepted</h3>
 <p>At first I thought I am missing something, but I soon to find out that I can easily automate the process in R by creating the following function:</p>
-<pre class="r"><code>### See do file for details
-
-#Define the function:
+<pre class="r"><code>#Define the function:
 chels_fun &lt;- function(start, end, path){
   #install relevant packages if needed:
   list.of.packages &lt;- c(&quot;dplyr&quot;, &quot;gdata&quot;)
@@ -189,6 +187,9 @@ dat #print the results (this will print only the first 10 lines, since it is a d
 ## # ... with 79 more rows, and 3 more variables: RetTime.746 &lt;dbl&gt;,
 ## #   Area.747 &lt;dbl&gt;, RetTime.747 &lt;dbl&gt;</code></pre>
 <pre class="r"><code>write.csv(dat,&quot;my_results.csv&quot;) #save the results </code></pre>
+<ul>
+<li>Find the relevant data at <a href="https://github.com/RamBarankin/Automating-data-mining-of-lab-data.git" class="uri">https://github.com/RamBarankin/Automating-data-mining-of-lab-data.git</a></li>
+</ul>
 </div>
 </div>
 
